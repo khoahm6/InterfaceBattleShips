@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NT106-BattleShip\\BattleShips\\BattleShips\\BattleShips.csproj",
+      "projectUniqueName": "D:\\InterfaceBattleShips\\BattleShips\\BattleShips\\BattleShips.csproj",
       "projectName": "BattleShips",
-      "projectPath": "D:\\NT106-BattleShip\\BattleShips\\BattleShips\\BattleShips.csproj",
+      "projectPath": "D:\\InterfaceBattleShips\\BattleShips\\BattleShips\\BattleShips.csproj",
       "packagesPath": "C:\\Users\\Khoa\\.nuget\\packages\\",
-      "outputPath": "D:\\NT106-BattleShip\\BattleShips\\BattleShips\\obj\\",
+      "outputPath": "D:\\InterfaceBattleShips\\BattleShips\\BattleShips\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

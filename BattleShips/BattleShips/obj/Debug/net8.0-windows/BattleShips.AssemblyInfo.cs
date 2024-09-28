@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BattleShips")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf9919baafb7059238af0eb5b3de60081256e125")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beca359f6a85ca227d0f748271e55b9ad2e89b75")]
 [assembly: System.Reflection.AssemblyProductAttribute("BattleShips")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BattleShips")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
