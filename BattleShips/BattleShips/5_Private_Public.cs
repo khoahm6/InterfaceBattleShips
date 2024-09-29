@@ -19,7 +19,7 @@ namespace BattleShips
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RoomWaiting formPrivate = new RoomWaiting();
+            PrivateRoom formPrivate = new PrivateRoom();
             formPrivate.Show();
             this.Hide();
         }
@@ -30,6 +30,13 @@ namespace BattleShips
             RoomWaiting formPrivate = new RoomWaiting();
             formPrivate.Show();
             this.Hide();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            CreateRoom  createRoom = new CreateRoom();
+            createRoom.Show();
+            this.Close();
         }
     }
 }

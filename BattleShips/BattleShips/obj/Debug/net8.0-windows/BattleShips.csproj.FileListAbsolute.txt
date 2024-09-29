@@ -48,3 +48,4 @@ D:\InterfaceBattleShips\BattleShips\BattleShips\obj\Debug\net8.0-windows\refint\
 D:\InterfaceBattleShips\BattleShips\BattleShips\obj\Debug\net8.0-windows\BattleShips.pdb
 D:\InterfaceBattleShips\BattleShips\BattleShips\obj\Debug\net8.0-windows\BattleShips.genruntimeconfig.cache
 D:\InterfaceBattleShips\BattleShips\BattleShips\obj\Debug\net8.0-windows\ref\BattleShips.dll
+D:\InterfaceBattleShips\BattleShips\BattleShips\obj\Debug\net8.0-windows\BattleShips.PrivateRoom.resources

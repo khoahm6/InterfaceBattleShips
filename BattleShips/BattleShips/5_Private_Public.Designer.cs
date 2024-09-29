@@ -32,6 +32,7 @@
             button1 = new Button();
             button2 = new Button();
             label1 = new Label();
+            btnBack = new Button();
             SuspendLayout();
             // 
             // button1
@@ -78,12 +79,29 @@
             label1.TabIndex = 2;
             label1.Text = "Play with friends or play with strangers";
             // 
+            // btnBack
+            // 
+            btnBack.BackColor = Color.Transparent;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnBack.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.Font = new Font("Algerian", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBack.Location = new Point(0, 0);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(94, 34);
+            btnBack.TabIndex = 3;
+            btnBack.Text = "Back";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
+            // 
             // Private_Public
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
+            Controls.Add(btnBack);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -97,5 +115,6 @@
         private Button button1;
         private Button button2;
         private Label label1;
+        private Button btnBack;
     }
 }

@@ -25,5 +25,8 @@
     <Compile Update="8_PlayForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="9_PrivateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

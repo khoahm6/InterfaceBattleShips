@@ -19,9 +19,14 @@ namespace BattleShips
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Private_Public formCreateRoom = new Private_Public();
-            formCreateRoom.Show();
-            this.Close();
+            DialogResult result = MessageBox.Show("Do you want to left?", "Left this room?", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                MenuForm menuForm = new MenuForm();
+                menuForm.Show();
+
+                this.Close();
+            }
         }
     }
 }

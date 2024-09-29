@@ -157,6 +157,7 @@
             Controls.Add(label1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 163);
             Name = "RoomWaiting";
+            Text = "Public Room";
             ((System.ComponentModel.ISupportInitialize)PBoxMe).EndInit();
             ((System.ComponentModel.ISupportInitialize)PBoxEnemy).EndInit();
             ResumeLayout(false);

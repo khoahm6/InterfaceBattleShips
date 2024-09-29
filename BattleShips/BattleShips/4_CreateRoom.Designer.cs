@@ -81,10 +81,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(298, 197);
+            textBox1.Font = new Font("Algerian", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(298, 191);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(199, 20);
+            textBox1.Size = new Size(199, 35);
             textBox1.TabIndex = 3;
             // 
             // btnBack
